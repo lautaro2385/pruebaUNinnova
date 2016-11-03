@@ -73,7 +73,7 @@ function calcular() {
     }
 
     $.ajax({
-        url: 'index.php',
+        url: 'home.php',
         type: 'GET',
         data: {numberone: num1.value.trim(), numbertwo: num2.value.trim()},
         success: function (data) {
